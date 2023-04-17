@@ -5,3 +5,5 @@ This file will consist of every blog post as a topic and a short description.
 2. Migrating from Mysql to PostgreSQL.
 
 3. Golang Over Dotnet while creating microservices.
+
+4. Merits and demerits of using static factory method rather than constructor.
