@@ -1,0 +1,13 @@
+Famous algorithmic patterns and their everyday usage.
+- Sliding Window: Maintains a "window" of elements in a data structure (usually an array or a string) to optimize the solution of a problem.
+- Two Heaps: Uses two heaps (min-heap and max-heap) to maintain a specific order of elements to efficiently solve problems
+- Two Pointers: Uses two pointers that move through the data structure (often an array) in a coordinated manner to solve problems.
+- Breadth-First Search (BFS): Traverses a tree or a graph using a breadth-first approach, visiting all nodes at the current level before moving to the next level.
+- Depth-First Search (DFS): Traverses a tree or a graph using a depth-first approach, visiting a node and exploring as far as possible along a branch before backtracking.
+- Topological Sort: Used for linear ordering of the vertices of a directed acyclic graph (DAG) such that for every directed edge (u, v), vertex u comes before vertex v in the ordering.
+- Merge Intervals: Involves merging of overlapping or continuous intervals in a given data structure (usually an array or a list) to optimize solutions for a specific problem.
+- Backtracking: Tries out different possibilities, undoing them, and then trying out new paths until a solution is found.
+- Trie (Prefix Tree): Uses a tree-like data structure to efficiently store and retrieve strings based on their prefixes.
+- Flood Fill: Traverses a 2D grid (matrix) and replacing connected elements of a specific value with a new value.
+- Segment Tree: Uses a tree-like data structure to efficiently perform range queries and updates on an array or a list.
+
