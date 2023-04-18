@@ -9,3 +9,5 @@ This file will consist of every blog post as a topic and a short description.
 4. Merits and demerits of using static factory method rather than constructor.
 
 5. CQRS is a life saver in peak hours.(With Implementations) 
+
+6. Optimize the build time of .NET applications by following some best practices. 
