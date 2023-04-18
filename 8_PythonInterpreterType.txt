@@ -9,3 +9,11 @@ In general, the script interpreter is faster than the interactive interpreter.
 The reason for this is that the interactive interpreter needs to read, parse, and execute each command entered by the user one at a time. This overhead can slow down the execution of code compared to the script interpreter, which reads the entire program from a file and then executes it.
 
 However, the actual performance difference between the two interpreters can vary depending on the specific code being executed and the system on which it is running. So, it is always a good practice to test the performance of your code using both types of interpreters and choose the one that gives better performance for your particular use case.
+
+The CPython implementation of Python, which is the most commonly used implementation, uses the C programming language to implement both the interactive and script interpreters.
+
+The interactive interpreter is implemented using a loop that reads a line of input, compiles it into byte code, executes the byte code, and then prints the result. This loop is implemented in C in the CPython interpreter.
+
+The script interpreter is also implemented in C, and it reads the entire Python program from a file, compiles it into byte code, and then executes the byte code.
+
+Other Python implementations, such as Jython (which runs on the Java Virtual Machine) and IronPython (which runs on the .NET Common Language Runtime), may use different programming languages to implement their interpreters.
