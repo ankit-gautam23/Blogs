@@ -17,3 +17,7 @@ This file will consist of every blog post as a topic and a short description.
 8. Python Interpreters types.
 
 9. CPython vs PyPy Interpreter.
+
+10. API Architectural Patterns.
+
+11. API Architectural Patterns(Code Snippet).
