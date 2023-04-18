@@ -14,4 +14,6 @@ This file will consist of every blog post as a topic and a short description.
 
 7. Famous algorithmic patterns and their everyday usage. 
 
-8. Python Interpreters types
+8. Python Interpreters types.
+
+9. CPython vs PyPy Interpreter.
