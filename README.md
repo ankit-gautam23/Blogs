@@ -13,3 +13,5 @@ This file will consist of every blog post as a topic and a short description.
 6. Optimize the build time of .NET applications by following some best practices. 
 
 7. Famous algorithmic patterns and their everyday usage. 
+
+8. Python Interpreters types
