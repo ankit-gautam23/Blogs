@@ -21,3 +21,5 @@ This file will consist of every blog post as a topic and a short description.
 10. API Architectural Patterns.
 
 11. API Architectural Patterns(Code Snippet).
+
+12. Why Kafka is fast??
