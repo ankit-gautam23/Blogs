@@ -1,0 +1,29 @@
+What is a webhook?
+
+Imagine this: You have a website or an application, and you want it to automatically do things without you having to trigger them manually.
+
+That's where webhooks come in!
+
+Webhooks are like little messengers that allow one system to send a message or data to another system in real time whenever a specific event happens.
+
+It's like getting a notification on your phone when someone comments on your social media post or when you receive an email.
+
+Webhooks work similarly but for systems and applications.
+
+A webhook is a way for one system to send a message or data to another system in real-time whenever something important happens.
+
+There are many ways that webhooks can be helpful.
+
+For example, you can use webhooks to automatically update a database or trigger an action when a form is submitted on your website.
+
+They can also be used to send notifications or alerts, such as when a new user signs up for your service or when an error occurs in your system.
+
+One of the cool things about webhooks is that they make your website or application more dynamic and responsive.
+
+You don't have to keep polling or manually updating your system. Instead, webhooks allow your systems to communicate and work together seamlessly, saving you time and resources.
+
+A straightforward way to implement webhooks is using Azure Functions with HTTP triggers.
+
+This is the approach I'm using to implement my Patreon integration with GitHub.
+
+Patreon has webhook support that will hit my Azure Function endpoints, and then I can run my business logic.
