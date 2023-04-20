@@ -27,3 +27,5 @@ This file will consist of every blog post as a topic and a short description.
 13. What is a WebHook???
 
 14. How to generate and use secret token in your Flask Applications.
+
+15. Things to be taken care before you take some code to the production environment.
