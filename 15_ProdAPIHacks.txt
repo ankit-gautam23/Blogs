@@ -1,5 +1,3 @@
-To update the configuration file variable in a production environment using the above API, you need to consider some additional factors, such as security and file permissions.
-
 Here are some changes you might need to make to the code to ensure that it can be safely used in a production environment:
 
 Ensure that the API endpoint is protected by authentication and authorization mechanisms, such as JWT authentication, to prevent unauthorized access to the configuration file.
