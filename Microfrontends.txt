@@ -1,0 +1,28 @@
+What after Microservices? MicroFrontends? 
+
+Let's get to the root to understand clearly. Micro frontends are basically an extension to a microservices pattern, where the functionality is extended to the front end. As a result, micro frontends bring a wide range of advantages, including deployment independence, easier testing of features, etc.
+
+The idea behind Micro Frontends is to think about a web app as a composition of features that are owned by independent teams.
+
+Each team has a distinct area of business it cares about and specializes in. A team is cross-functional and develops its features end-to-end, from database to user interface.
+
+--- But why do we need micro frontends? Let’s find out.
+In the Modern Era, with new web apps, the front end is becoming bigger and bigger, and the back end is getting less important.
+
+Most of the code is the Micro Frontend Architecture and the Monolith approach doesn’t work for a larger web application. There needs to be a tool for breaking it up into smaller modules that act independently. The solution to the problem is the Micro frontend.
+
+--- Core concepts behind Micro Frontends:
+➡ Be Technology Independent:
+Each team should choose and upgrade the stack without coordinating with other teams.
+
+➡ Isolate Team Code:
+Never share a runtime, even if teams use the same framework. Build an independent application self-contained. Do not rely on shared state or global variables.
+
+➡ Create Team Prefixes:
+Use naming conventions where isolation is not possible yet. Namespace CSS, Local Storage, Events, and Cookies to avoid collisions and clarify ownership.
+
+➡ Favor Native Browser Features over Custom APIs:
+Instead of building a global PubSub system, use browser events for communication. If there is a need to build a cross-team API, try to keep it as simple as possible.
+
+➡ Build a Resilient Web design:
+The features should be useful, even if JavaScript is unable to execute. To improve perceived performance, use universal rendering and progressive enhancement.
