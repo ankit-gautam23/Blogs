@@ -31,3 +31,5 @@ This file will consist of every blog post as a topic and a short description.
 15. Things to be taken care before you take some code to the production environment.
 
 16. What are microservice & microfrontends?
+
+17. Python must know things.
