@@ -1,0 +1,21 @@
+The definition of what "region" in the cloud is different at AWS, and at Google Cloud and Azure. Why is this important? Well, one incident in one data center took a whole GCP region offline!
+
+When I researched differences between cloud providers, something stood out: AWS treats their region definition much, much more strict than other cloud providers do.
+
+At AWS, a region consist of 3 or more zones (one zone can be 1 or more data centers). Zones are at least 30 miles away from each other and usually no more than 60 miles, to mitigate against local disasters like earthquakes, floods, extreme weather etc. This means that if a data center has issues, or even if a whole zone goes offline, the region continues to operate. So customers who operate in two or more zones within a region can keep operating in this region.
+
+On the other hand, Google Cloud - as well as Azure - is a lot more vague on what a region is. Sure, they both say how a region consists of multiple availability zones: but neither is clear on how "separate" a zone is. Neither guarantee geographic separation, or even building separation. Both make it clear that zones are independent of one another for e.g. power supply, networking etc. But no more specifics than this are given.
+
+Normally, the difference is subtle, as zones have some level of separation. Except when a local disaster strikes!
+
+Google Cloud has water intrusion in one of their data centers, impacting one zone, in eu-west-9, which is in Paris. What this would normally mean is one zone is impacted.
+
+However, in this case, the whole region - with several zones - went offline.
+
+How could this happen?
+
+Well, for one, the whole region is in one building, so there is no geographic separation: could have "water intrusion" hit the whole building? On the other hand, if a critical service operating the region runs in a given zone, that could also take down the whole region, even if this event did not impact the other zones.
+
+One thing is certain: "region" means something different in AWS than in other cloud providers. Incidentally, both Google Cloud and Azure claim to have more regions and zones than AWS, globally. But the comparison is not entirely apples to apples, once you realize how some cloud providers locate a region in one location (or building), while others spread them out, to allow for much more reilliency for disasters that can happen in a data center.
+
+Google will have to provide a detailed postmortem to restore trust, and explain how a problem in one data center can take a whole region down, and what improvements they will do to avoid this in the future. More details on the GCP outage: https://lnkd.in/emyBJke2
