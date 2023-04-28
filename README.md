@@ -35,3 +35,5 @@ This file will consist of every blog post as a topic and a short description.
 17. Python must know things.
 
 18. The differences in terminology 'region' used across AWS, GCP and Azure.
+
+19. Lessons from Book 'Reality Transurfung'.
