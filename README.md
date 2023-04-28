@@ -37,3 +37,5 @@ This file will consist of every blog post as a topic and a short description.
 18. The differences in terminology 'region' used across AWS, GCP and Azure.
 
 19. Lessons from Book 'Reality Transurfung'.
+
+20. gRPC will rule the software architecture things. Know here why..
