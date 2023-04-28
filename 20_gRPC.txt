@@ -1,0 +1,9 @@
+Why gRPC
+As the world is getting more and more connected, much more data load needs to catered by our giant servers and in this, Google came up with a faster and more power efficient architectural framework for communication called gRPC.
+
+As the name suggests, it is an extension of traditional remote procedure calls (RPC). gRPC is designed very thoughfully to overcome pain points of REST based architectures with following advantages
+
+gRPC is based on HTTP 2 which allows multiplexing over the network, gRPC is even superior than similar solutions like Thrift because of the above mentioned reasons
+gRPC uses serialised protocol buffers which consume less network bandwidth than JSON while data transfers. Protocol buffer’s contract definition language (proto3 as of today) is technology agnostic
+gRPC supported bidirectional streaming of data over a single RPC call. Means server can send a stream of data back to client efficiently unlike REST’s hit and get nature.
+gRPC’s implementation is time consuming as compare to REST but it is 7 times faster than REST in receiving and 10 times faster than REST in sending data.
