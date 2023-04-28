@@ -33,3 +33,5 @@ This file will consist of every blog post as a topic and a short description.
 16. What are microservice & microfrontends?
 
 17. Python must know things.
+
+18. The differences in terminology 'region' used across AWS, GCP and Azure.
